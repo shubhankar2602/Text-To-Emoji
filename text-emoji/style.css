@@ -35,7 +35,7 @@ html,body {
     align-items: center;
 
 }
-#main>h1>span>img{
+#main>h1 span img{
     rotate: 90deg;
     height: 40px;
     transition: 0.3s ease;
@@ -160,6 +160,7 @@ button img{
     align-items: start;
     justify-content: space-around;
     flex-direction: column;
+    display: none;
     
 }
 #decryption h5{
@@ -216,4 +217,16 @@ button span{
 button img{
     height: 20px;
     padding: 0 5px;
+}
+
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 40px;
+    transition: 2s ease;
 }
